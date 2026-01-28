@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 1000;
 
 const SUPABASE_URL = "https://fhnxfmifebqwpwjzuiqa.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZobnhmbWlmZWJxd3B3anp1aXFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njk0NzAzNjIsImV4cCI6MjA4NTA0NjM2Mn0.bRTJpL4rFPs0viuplRpOeLELVMSUTDVK7-tCuUdKxeg";
