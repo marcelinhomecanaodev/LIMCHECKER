@@ -1,0 +1,22 @@
+{
+  "name": "limchecker",
+  "version": "1.0.0",
+  "description": "checklim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelinhomecanaodev/LIMCHECKER.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelinhomecanaodev/LIMCHECKER/issues"
+  },
+  "homepage": "https://github.com/marcelinhomecanaodev/LIMCHECKER#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
